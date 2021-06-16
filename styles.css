@@ -1,7 +1,16 @@
+body,
+html {
+    margin: 0;
+}
+
+
+
 /* img */
 .desktop {
     display: none;
 }
+
+.mobile
 
 /* Attribution */
 .attribution { 
