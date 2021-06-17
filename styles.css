@@ -1,19 +1,24 @@
 body,
 html {
     margin: 0;
+    background-color: hsl(233, 47%, 7%);
 }
 
 .main-container {
     width: 90%;
     margin: 5em auto 0 auto;
-    background-color: hsl(233, 47%, 7%);
+    background-color: hsl(244, 38%, 16%);
+}
+
+header {
+    background: hsl(277, 64%, 61%);
 }
 
 /* img */
 img {
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
-    background-color: hsl(244, 38%, 16%);
+    opacity: 0.2;
 }
 
 .desktop {
