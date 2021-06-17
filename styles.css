@@ -10,15 +10,15 @@ html {
     background-color: hsl(244, 38%, 16%);
 }
 
-header {
+/* header {
     background: hsl(277, 64%, 61%);
-}
+} */
 
 /* img */
 img {
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
-    opacity: 0.2;
+    /* opacity: 0.2; */
 }
 
 .desktop {
@@ -28,6 +28,19 @@ img {
 .mobile {
     max-width: 100%;
     display: inline-block;
+}
+
+.card-overlay {
+    position: absolute;
+    top:0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    background-color:var(--clr-accent);
+    mix-blend-mode: multiply;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
 }
 
 /* Attribution */
