@@ -3,14 +3,24 @@ html {
     margin: 0;
 }
 
-
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+}
 
 /* img */
+img {
+    border-radius: 0.5em;
+}
+
 .desktop {
     display: none;
 }
 
-.mobile
+.mobile {
+    max-width: 100%;
+    display: inline-block;
+}
 
 /* Attribution */
 .attribution { 
