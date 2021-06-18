@@ -2,6 +2,8 @@ body,
 html {
     margin: 0;
     background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
 }
 
 .main-container {
@@ -15,6 +17,10 @@ header {
     width: 100%;
     height: 100%;
     background-color: hsl(277, 77%, 49%);
+}
+
+span {
+    color: hsl(277, 64%, 61%);
 }
 
 /* img */
